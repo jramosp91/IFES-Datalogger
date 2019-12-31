@@ -159,14 +159,17 @@
                 Case "1"
                     txtTemp2.Text = a
                     txtPH2.Text = b
+                    txtCauAct.Text = Val(txtCauIni.Text) + ritter_1
 
                 Case "2"
                     txtTemp2.Text = c
                     txtPH2.Text = d
+                    txtCauAct.Text = Val(txtCauIni.Text) + ritter_2
 
                 Case "3"
                     txtTemp2.Text = ei
                     txtPH2.Text = f
+                    txtCauAct.Text = Val(txtCauIni.Text) + ritter_3
                 Case Else
             End Select
         End If

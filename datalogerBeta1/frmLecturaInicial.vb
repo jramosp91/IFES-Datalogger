@@ -92,4 +92,13 @@
             e.Handled = True
         End If
     End Sub
+
+    'Private Sub Timer1_Tick_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+    '    If Form1.SerialPort1.IsOpen = True Then
+    '        txtRect1.Text = ritter_1
+    '        txtReact2.Text = ritter_2
+    '        txtReact3.Text = ritter_3
+    '    End If
+    'End Sub
+
 End Class

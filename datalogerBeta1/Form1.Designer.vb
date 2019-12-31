@@ -266,12 +266,13 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.TabControl1, 0, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.41048!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.58952!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(961, 709)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1281, 873)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'TableLayoutPanel3
@@ -292,34 +293,36 @@ Partial Class Form1
         Me.TableLayoutPanel3.Controls.Add(Me.RitterConnect, 0, 10)
         Me.TableLayoutPanel3.Controls.Add(Me.RitterDisconnect, 0, 11)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(747, 105)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(995, 129)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 15
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 153.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 95.0!))
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(211, 601)
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 188.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 117.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 86.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(282, 740)
         Me.TableLayoutPanel3.TabIndex = 1
         '
         'PictureBox2
         '
         Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox2.Image = Global.datalogerBeta1.My.Resources.Resources.LOGO_CHICO_JPG___Copy
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 516)
+        Me.PictureBox2.Location = New System.Drawing.Point(4, 636)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(205, 89)
+        Me.PictureBox2.Size = New System.Drawing.Size(274, 109)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 8
         Me.PictureBox2.TabStop = False
@@ -327,9 +330,10 @@ Partial Class Form1
         'btnConect
         '
         Me.btnConect.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.btnConect.Location = New System.Drawing.Point(13, 33)
+        Me.btnConect.Location = New System.Drawing.Point(17, 41)
+        Me.btnConect.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnConect.Name = "btnConect"
-        Me.btnConect.Size = New System.Drawing.Size(185, 24)
+        Me.btnConect.Size = New System.Drawing.Size(247, 29)
         Me.btnConect.TabIndex = 0
         Me.btnConect.Text = "Conectar"
         Me.btnConect.UseVisualStyleBackColor = True
@@ -339,17 +343,19 @@ Partial Class Form1
         Me.ComboBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(3, 3)
+        Me.ComboBox1.Location = New System.Drawing.Point(4, 4)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(205, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(274, 24)
         Me.ComboBox1.TabIndex = 1
         '
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(13, 63)
+        Me.Button1.Location = New System.Drawing.Point(17, 78)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(185, 24)
+        Me.Button1.Size = New System.Drawing.Size(247, 29)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Desconectar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -358,9 +364,10 @@ Partial Class Form1
         '
         Me.btnEnsayoNew.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.btnEnsayoNew.Enabled = False
-        Me.btnEnsayoNew.Location = New System.Drawing.Point(13, 93)
+        Me.btnEnsayoNew.Location = New System.Drawing.Point(17, 115)
+        Me.btnEnsayoNew.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnEnsayoNew.Name = "btnEnsayoNew"
-        Me.btnEnsayoNew.Size = New System.Drawing.Size(185, 24)
+        Me.btnEnsayoNew.Size = New System.Drawing.Size(247, 29)
         Me.btnEnsayoNew.TabIndex = 4
         Me.btnEnsayoNew.Text = "Nuevo Ensayo"
         Me.btnEnsayoNew.UseVisualStyleBackColor = True
@@ -369,9 +376,10 @@ Partial Class Form1
         '
         Me.btnCargaDatos.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.btnCargaDatos.Enabled = False
-        Me.btnCargaDatos.Location = New System.Drawing.Point(13, 123)
+        Me.btnCargaDatos.Location = New System.Drawing.Point(17, 152)
+        Me.btnCargaDatos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCargaDatos.Name = "btnCargaDatos"
-        Me.btnCargaDatos.Size = New System.Drawing.Size(185, 23)
+        Me.btnCargaDatos.Size = New System.Drawing.Size(247, 28)
         Me.btnCargaDatos.TabIndex = 7
         Me.btnCargaDatos.Text = "Cargar Datos"
         Me.btnCargaDatos.UseVisualStyleBackColor = False
@@ -380,9 +388,10 @@ Partial Class Form1
         '
         Me.btnDatosAnal.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
         Me.btnDatosAnal.Enabled = False
-        Me.btnDatosAnal.Location = New System.Drawing.Point(13, 152)
+        Me.btnDatosAnal.Location = New System.Drawing.Point(17, 188)
+        Me.btnDatosAnal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnDatosAnal.Name = "btnDatosAnal"
-        Me.btnDatosAnal.Size = New System.Drawing.Size(185, 26)
+        Me.btnDatosAnal.Size = New System.Drawing.Size(247, 31)
         Me.btnDatosAnal.TabIndex = 9
         Me.btnDatosAnal.Text = "Datos Analiticos"
         Me.btnDatosAnal.UseVisualStyleBackColor = True
@@ -390,9 +399,10 @@ Partial Class Form1
         'btnResult
         '
         Me.btnResult.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.btnResult.Location = New System.Drawing.Point(13, 184)
+        Me.btnResult.Location = New System.Drawing.Point(17, 227)
+        Me.btnResult.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnResult.Name = "btnResult"
-        Me.btnResult.Size = New System.Drawing.Size(185, 23)
+        Me.btnResult.Size = New System.Drawing.Size(247, 28)
         Me.btnResult.TabIndex = 10
         Me.btnResult.Text = "Resultados"
         Me.btnResult.UseVisualStyleBackColor = True
@@ -400,9 +410,10 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Button6.Location = New System.Drawing.Point(14, 213)
+        Me.Button6.Location = New System.Drawing.Point(19, 263)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(182, 23)
+        Me.Button6.Size = New System.Drawing.Size(243, 28)
         Me.Button6.TabIndex = 11
         Me.Button6.Text = "Consultar Ensayos"
         Me.Button6.UseVisualStyleBackColor = True
@@ -410,9 +421,10 @@ Partial Class Form1
         'Button9
         '
         Me.Button9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Button9.Location = New System.Drawing.Point(16, 242)
+        Me.Button9.Location = New System.Drawing.Point(21, 299)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(179, 25)
+        Me.Button9.Size = New System.Drawing.Size(239, 30)
         Me.Button9.TabIndex = 12
         Me.Button9.Text = "Personal"
         Me.Button9.UseVisualStyleBackColor = True
@@ -420,9 +432,10 @@ Partial Class Form1
         'Button10
         '
         Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.Button10.Location = New System.Drawing.Point(16, 273)
+        Me.Button10.Location = New System.Drawing.Point(21, 337)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(179, 24)
+        Me.Button10.Size = New System.Drawing.Size(239, 29)
         Me.Button10.TabIndex = 13
         Me.Button10.Text = "Gráficas"
         Me.Button10.UseVisualStyleBackColor = True
@@ -430,9 +443,10 @@ Partial Class Form1
         'RitterConnect
         '
         Me.RitterConnect.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.RitterConnect.Location = New System.Drawing.Point(16, 303)
+        Me.RitterConnect.Location = New System.Drawing.Point(21, 374)
+        Me.RitterConnect.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RitterConnect.Name = "RitterConnect"
-        Me.RitterConnect.Size = New System.Drawing.Size(179, 24)
+        Me.RitterConnect.Size = New System.Drawing.Size(239, 29)
         Me.RitterConnect.TabIndex = 14
         Me.RitterConnect.Text = "Conectar Ritters"
         Me.RitterConnect.UseVisualStyleBackColor = True
@@ -440,9 +454,10 @@ Partial Class Form1
         'RitterDisconnect
         '
         Me.RitterDisconnect.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.RitterDisconnect.Location = New System.Drawing.Point(16, 333)
+        Me.RitterDisconnect.Location = New System.Drawing.Point(21, 411)
+        Me.RitterDisconnect.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RitterDisconnect.Name = "RitterDisconnect"
-        Me.RitterDisconnect.Size = New System.Drawing.Size(179, 24)
+        Me.RitterDisconnect.Size = New System.Drawing.Size(239, 29)
         Me.RitterDisconnect.TabIndex = 15
         Me.RitterDisconnect.Text = "Desconectar Ritters"
         Me.RitterDisconnect.UseVisualStyleBackColor = True
@@ -455,10 +470,11 @@ Partial Class Form1
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TabControl1.Location = New System.Drawing.Point(3, 105)
+        Me.TabControl1.Location = New System.Drawing.Point(4, 129)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(738, 601)
+        Me.TabControl1.Size = New System.Drawing.Size(983, 740)
         Me.TabControl1.TabIndex = 4
         '
         'TabPage5
@@ -466,10 +482,11 @@ Partial Class Form1
         Me.TabPage5.BackgroundImage = Global.datalogerBeta1.My.Resources.Resources.reactor_copia
         Me.TabPage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPage5.Controls.Add(Me.TableLayoutPanel7)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(730, 575)
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage5.Size = New System.Drawing.Size(975, 711)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Reactor 1"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -514,36 +531,38 @@ Partial Class Form1
         Me.TableLayoutPanel7.Controls.Add(Me.Label5, 1, 2)
         Me.TableLayoutPanel7.Controls.Add(Me.Label6, 5, 2)
         Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel7.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 18
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 12.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 64.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48.0!))
-        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13.0!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(724, 569)
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16.0!))
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(967, 703)
         Me.TableLayoutPanel7.TabIndex = 2
         '
         'Label73
         '
         Me.Label73.AutoSize = True
-        Me.Label73.Location = New System.Drawing.Point(3, 0)
+        Me.Label73.Location = New System.Drawing.Point(4, 0)
+        Me.Label73.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(127, 13)
+        Me.Label73.Size = New System.Drawing.Size(168, 17)
         Me.Label73.TabIndex = 26
         Me.Label73.Text = "Tiempo de Ensayo (Días)"
         '
@@ -551,9 +570,10 @@ Partial Class Form1
         '
         Me.Label74.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label74, 3)
-        Me.Label74.Location = New System.Drawing.Point(197, 194)
+        Me.Label74.Location = New System.Drawing.Point(264, 239)
+        Me.Label74.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(80, 12)
+        Me.Label74.Size = New System.Drawing.Size(108, 15)
         Me.Label74.TabIndex = 30
         Me.Label74.Text = "Velocidad (rpm)"
         '
@@ -561,9 +581,10 @@ Partial Class Form1
         '
         Me.Label75.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label75, 3)
-        Me.Label75.Location = New System.Drawing.Point(197, 238)
+        Me.Label75.Location = New System.Drawing.Point(264, 293)
+        Me.Label75.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(82, 13)
+        Me.Label75.Size = New System.Drawing.Size(109, 17)
         Me.Label75.TabIndex = 32
         Me.Label75.Text = "Frecuencia (Hz)"
         '
@@ -571,18 +592,20 @@ Partial Class Form1
         '
         Me.Label77.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label77, 3)
-        Me.Label77.Location = New System.Drawing.Point(197, 343)
+        Me.Label77.Location = New System.Drawing.Point(264, 422)
+        Me.Label77.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(87, 13)
+        Me.Label77.Size = New System.Drawing.Size(119, 17)
         Me.Label77.TabIndex = 36
         Me.Label77.Text = "Temperatura (°C)"
         '
         'Label78
         '
         Me.Label78.AutoSize = True
-        Me.Label78.Location = New System.Drawing.Point(197, 393)
+        Me.Label78.Location = New System.Drawing.Point(264, 483)
+        Me.Label78.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(22, 13)
+        Me.Label78.Size = New System.Drawing.Size(27, 17)
         Me.Label78.TabIndex = 38
         Me.Label78.Text = "PH"
         '
@@ -590,9 +613,10 @@ Partial Class Form1
         '
         Me.Label80.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label80, 2)
-        Me.Label80.Location = New System.Drawing.Point(396, 194)
+        Me.Label80.Location = New System.Drawing.Point(529, 239)
+        Me.Label80.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(132, 12)
+        Me.Label80.Size = New System.Drawing.Size(131, 15)
         Me.Label80.TabIndex = 40
         Me.Label80.Text = "Prod. diaria biogas (lts/dia)"
         '
@@ -600,45 +624,50 @@ Partial Class Form1
         '
         Me.Label81.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label81, 2)
-        Me.Label81.Location = New System.Drawing.Point(396, 238)
+        Me.Label81.Location = New System.Drawing.Point(529, 293)
+        Me.Label81.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(107, 13)
+        Me.Label81.Size = New System.Drawing.Size(144, 17)
         Me.Label81.TabIndex = 41
         Me.Label81.Text = "Prod. Acumulada (lts)"
         '
         'Label82
         '
         Me.Label82.AutoSize = True
-        Me.Label82.Location = New System.Drawing.Point(534, 194)
+        Me.Label82.Location = New System.Drawing.Point(713, 239)
+        Me.Label82.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(45, 12)
+        Me.Label82.Size = New System.Drawing.Size(61, 15)
         Me.Label82.TabIndex = 44
         Me.Label82.Text = "CH4 (%)"
         '
         'Label83
         '
         Me.Label83.AutoSize = True
-        Me.Label83.Location = New System.Drawing.Point(534, 238)
+        Me.Label83.Location = New System.Drawing.Point(713, 293)
+        Me.Label83.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(45, 13)
+        Me.Label83.Size = New System.Drawing.Size(62, 17)
         Me.Label83.TabIndex = 45
         Me.Label83.Text = "CO2 (%)"
         '
         'Label84
         '
         Me.Label84.AutoSize = True
-        Me.Label84.Location = New System.Drawing.Point(534, 286)
+        Me.Label84.Location = New System.Drawing.Point(713, 352)
+        Me.Label84.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(57, 13)
+        Me.Label84.Size = New System.Drawing.Size(76, 17)
         Me.Label84.TabIndex = 46
         Me.Label84.Text = "H2S (ppm)"
         '
         'Label85
         '
         Me.Label85.AutoSize = True
-        Me.Label85.Location = New System.Drawing.Point(534, 326)
+        Me.Label85.Location = New System.Drawing.Point(713, 401)
+        Me.Label85.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(50, 13)
+        Me.Label85.Size = New System.Drawing.Size(67, 17)
         Me.Label85.TabIndex = 47
         Me.Label85.Text = "H2 (ppm)"
         '
@@ -646,9 +675,10 @@ Partial Class Form1
         '
         Me.txtVelprom.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtVelprom.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtVelprom.Location = New System.Drawing.Point(197, 212)
+        Me.txtVelprom.Location = New System.Drawing.Point(264, 262)
+        Me.txtVelprom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtVelprom.Name = "txtVelprom"
-        Me.txtVelprom.Size = New System.Drawing.Size(60, 20)
+        Me.txtVelprom.Size = New System.Drawing.Size(80, 22)
         Me.txtVelprom.TabIndex = 52
         Me.txtVelprom.Text = "0"
         Me.txtVelprom.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -657,9 +687,10 @@ Partial Class Form1
         '
         Me.txtTension1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTension1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTension1.Location = New System.Drawing.Point(197, 261)
+        Me.txtTension1.Location = New System.Drawing.Point(264, 322)
+        Me.txtTension1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTension1.Name = "txtTension1"
-        Me.txtTension1.Size = New System.Drawing.Size(60, 20)
+        Me.txtTension1.Size = New System.Drawing.Size(80, 22)
         Me.txtTension1.TabIndex = 53
         Me.txtTension1.Text = "0"
         Me.txtTension1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -669,9 +700,10 @@ Partial Class Form1
         Me.txtTemp.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTemp.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTemp.Location = New System.Drawing.Point(197, 368)
+        Me.txtTemp.Location = New System.Drawing.Point(264, 453)
+        Me.txtTemp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTemp.Name = "txtTemp"
-        Me.txtTemp.Size = New System.Drawing.Size(60, 20)
+        Me.txtTemp.Size = New System.Drawing.Size(80, 22)
         Me.txtTemp.TabIndex = 55
         Me.txtTemp.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -680,9 +712,10 @@ Partial Class Form1
         Me.txtPH.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtPH.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtPH.Location = New System.Drawing.Point(197, 419)
+        Me.txtPH.Location = New System.Drawing.Point(264, 515)
+        Me.txtPH.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPH.Name = "txtPH"
-        Me.txtPH.Size = New System.Drawing.Size(60, 20)
+        Me.txtPH.Size = New System.Drawing.Size(80, 22)
         Me.txtPH.TabIndex = 56
         Me.txtPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -691,9 +724,10 @@ Partial Class Form1
         Me.txtPromgas.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtPromgas.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtPromgas.Location = New System.Drawing.Point(396, 209)
+        Me.txtPromgas.Location = New System.Drawing.Point(529, 258)
+        Me.txtPromgas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPromgas.Name = "txtPromgas"
-        Me.txtPromgas.Size = New System.Drawing.Size(90, 20)
+        Me.txtPromgas.Size = New System.Drawing.Size(120, 22)
         Me.txtPromgas.TabIndex = 57
         Me.txtPromgas.Text = "0"
         Me.txtPromgas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -703,9 +737,10 @@ Partial Class Form1
         Me.txtTotalGas.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTotalGas.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTotalGas.Location = New System.Drawing.Point(396, 259)
+        Me.txtTotalGas.Location = New System.Drawing.Point(529, 319)
+        Me.txtTotalGas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTotalGas.Name = "txtTotalGas"
-        Me.txtTotalGas.Size = New System.Drawing.Size(90, 20)
+        Me.txtTotalGas.Size = New System.Drawing.Size(120, 22)
         Me.txtTotalGas.TabIndex = 58
         Me.txtTotalGas.Text = "0"
         Me.txtTotalGas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -714,9 +749,10 @@ Partial Class Form1
         '
         Me.txtCh4prom.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCh4prom.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtCh4prom.Location = New System.Drawing.Point(534, 212)
+        Me.txtCh4prom.Location = New System.Drawing.Point(713, 262)
+        Me.txtCh4prom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtCh4prom.Name = "txtCh4prom"
-        Me.txtCh4prom.Size = New System.Drawing.Size(105, 20)
+        Me.txtCh4prom.Size = New System.Drawing.Size(140, 22)
         Me.txtCh4prom.TabIndex = 59
         Me.txtCh4prom.Text = "0"
         Me.txtCh4prom.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -725,9 +761,10 @@ Partial Class Form1
         '
         Me.txtCo2prom.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCo2prom.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtCo2prom.Location = New System.Drawing.Point(534, 261)
+        Me.txtCo2prom.Location = New System.Drawing.Point(713, 322)
+        Me.txtCo2prom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtCo2prom.Name = "txtCo2prom"
-        Me.txtCo2prom.Size = New System.Drawing.Size(105, 20)
+        Me.txtCo2prom.Size = New System.Drawing.Size(140, 22)
         Me.txtCo2prom.TabIndex = 60
         Me.txtCo2prom.Text = "0"
         Me.txtCo2prom.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -736,9 +773,10 @@ Partial Class Form1
         '
         Me.txtH2sprom.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtH2sprom.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtH2sprom.Location = New System.Drawing.Point(534, 304)
+        Me.txtH2sprom.Location = New System.Drawing.Point(713, 374)
+        Me.txtH2sprom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtH2sprom.Name = "txtH2sprom"
-        Me.txtH2sprom.Size = New System.Drawing.Size(105, 20)
+        Me.txtH2sprom.Size = New System.Drawing.Size(140, 22)
         Me.txtH2sprom.TabIndex = 61
         Me.txtH2sprom.Text = "0"
         Me.txtH2sprom.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -747,9 +785,10 @@ Partial Class Form1
         '
         Me.txtH2prom.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtH2prom.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtH2prom.Location = New System.Drawing.Point(534, 346)
+        Me.txtH2prom.Location = New System.Drawing.Point(713, 426)
+        Me.txtH2prom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtH2prom.Name = "txtH2prom"
-        Me.txtH2prom.Size = New System.Drawing.Size(105, 20)
+        Me.txtH2prom.Size = New System.Drawing.Size(140, 22)
         Me.txtH2prom.TabIndex = 62
         Me.txtH2prom.Text = "0"
         Me.txtH2prom.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -759,36 +798,40 @@ Partial Class Form1
         Me.txtflujo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtflujo.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtflujo.Location = New System.Drawing.Point(277, 131)
+        Me.txtflujo.Location = New System.Drawing.Point(370, 162)
+        Me.txtflujo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtflujo.Name = "txtflujo"
-        Me.txtflujo.Size = New System.Drawing.Size(80, 20)
+        Me.txtflujo.Size = New System.Drawing.Size(107, 22)
         Me.txtflujo.TabIndex = 63
         Me.txtflujo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtTiempo
         '
         Me.txtTiempo.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTiempo.Location = New System.Drawing.Point(3, 23)
+        Me.txtTiempo.Location = New System.Drawing.Point(4, 29)
+        Me.txtTiempo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTiempo.Name = "txtTiempo"
-        Me.txtTiempo.Size = New System.Drawing.Size(132, 20)
+        Me.txtTiempo.Size = New System.Drawing.Size(175, 22)
         Me.txtTiempo.TabIndex = 64
         '
         'txtPresionlinea
         '
         Me.txtPresionlinea.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtPresionlinea.Location = New System.Drawing.Point(197, 79)
+        Me.txtPresionlinea.Location = New System.Drawing.Point(264, 98)
+        Me.txtPresionlinea.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPresionlinea.Name = "txtPresionlinea"
-        Me.txtPresionlinea.Size = New System.Drawing.Size(60, 20)
+        Me.txtPresionlinea.Size = New System.Drawing.Size(80, 22)
         Me.txtPresionlinea.TabIndex = 65
         '
         'txtTempLinea
         '
         Me.txtTempLinea.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtTempLinea.Location = New System.Drawing.Point(396, 79)
+        Me.txtTempLinea.Location = New System.Drawing.Point(529, 98)
+        Me.txtTempLinea.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTempLinea.Name = "txtTempLinea"
-        Me.txtTempLinea.Size = New System.Drawing.Size(90, 20)
+        Me.txtTempLinea.Size = New System.Drawing.Size(120, 22)
         Me.txtTempLinea.TabIndex = 66
         '
         'Label5
@@ -796,9 +839,10 @@ Partial Class Form1
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label5, 2)
-        Me.Label5.Location = New System.Drawing.Point(197, 63)
+        Me.Label5.Location = New System.Drawing.Point(264, 60)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(74, 13)
+        Me.Label5.Size = New System.Drawing.Size(60, 34)
         Me.Label5.TabIndex = 67
         Me.Label5.Text = "Presión (mbar)"
         '
@@ -807,9 +851,10 @@ Partial Class Form1
         Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label6.AutoSize = True
         Me.TableLayoutPanel7.SetColumnSpan(Me.Label6, 2)
-        Me.Label6.Location = New System.Drawing.Point(396, 63)
+        Me.Label6.Location = New System.Drawing.Point(529, 77)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(87, 13)
+        Me.Label6.Size = New System.Drawing.Size(119, 17)
         Me.Label6.TabIndex = 68
         Me.Label6.Text = "Temperatura (°C)"
         '
@@ -818,10 +863,11 @@ Partial Class Form1
         Me.TabPage3.BackgroundImage = Global.datalogerBeta1.My.Resources.Resources.reactor_copia
         Me.TabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPage3.Controls.Add(Me.TableLayoutPanel5)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(730, 575)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Size = New System.Drawing.Size(976, 711)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Reactor 2"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -866,54 +912,58 @@ Partial Class Form1
         Me.TableLayoutPanel5.Controls.Add(Me.Label3, 1, 2)
         Me.TableLayoutPanel5.Controls.Add(Me.Label4, 5, 2)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 18
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 11.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 66.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33.0!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 14.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60.0!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(724, 569)
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16.0!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(968, 703)
         Me.TableLayoutPanel5.TabIndex = 0
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(3, 0)
+        Me.Label34.Location = New System.Drawing.Point(4, 0)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(127, 13)
+        Me.Label34.Size = New System.Drawing.Size(168, 17)
         Me.Label34.TabIndex = 26
         Me.Label34.Text = "Tiempo de Ensayo (Días)"
         '
         'txtTiempo2
         '
         Me.txtTiempo2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTiempo2.Location = New System.Drawing.Point(3, 23)
+        Me.txtTiempo2.Location = New System.Drawing.Point(4, 29)
+        Me.txtTiempo2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTiempo2.Name = "txtTiempo2"
-        Me.txtTiempo2.Size = New System.Drawing.Size(132, 20)
+        Me.txtTiempo2.Size = New System.Drawing.Size(175, 22)
         Me.txtTiempo2.TabIndex = 27
         '
         'Label36
         '
         Me.Label36.AutoSize = True
         Me.TableLayoutPanel5.SetColumnSpan(Me.Label36, 3)
-        Me.Label36.Location = New System.Drawing.Point(197, 200)
+        Me.Label36.Location = New System.Drawing.Point(264, 246)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(80, 11)
+        Me.Label36.Size = New System.Drawing.Size(108, 14)
         Me.Label36.TabIndex = 30
         Me.Label36.Text = "Velocidad (rpm)"
         '
@@ -921,9 +971,10 @@ Partial Class Form1
         '
         Me.velocidad2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.velocidad2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.velocidad2.Location = New System.Drawing.Point(197, 214)
+        Me.velocidad2.Location = New System.Drawing.Point(264, 265)
+        Me.velocidad2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.velocidad2.Name = "velocidad2"
-        Me.velocidad2.Size = New System.Drawing.Size(60, 20)
+        Me.velocidad2.Size = New System.Drawing.Size(81, 22)
         Me.velocidad2.TabIndex = 31
         Me.velocidad2.Text = "0"
         Me.velocidad2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -932,9 +983,10 @@ Partial Class Form1
         '
         Me.Label37.AutoSize = True
         Me.TableLayoutPanel5.SetColumnSpan(Me.Label37, 3)
-        Me.Label37.Location = New System.Drawing.Point(197, 237)
+        Me.Label37.Location = New System.Drawing.Point(264, 292)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(79, 13)
+        Me.Label37.Size = New System.Drawing.Size(104, 17)
         Me.Label37.TabIndex = 32
         Me.Label37.Text = "Fecuencia (Hz)"
         '
@@ -942,9 +994,10 @@ Partial Class Form1
         '
         Me.tension2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tension2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.tension2.Location = New System.Drawing.Point(197, 254)
+        Me.tension2.Location = New System.Drawing.Point(264, 314)
+        Me.tension2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tension2.Name = "tension2"
-        Me.tension2.Size = New System.Drawing.Size(60, 20)
+        Me.tension2.Size = New System.Drawing.Size(81, 22)
         Me.tension2.TabIndex = 33
         Me.tension2.Text = "0"
         Me.tension2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -953,9 +1006,10 @@ Partial Class Form1
         '
         Me.Label39.AutoSize = True
         Me.TableLayoutPanel5.SetColumnSpan(Me.Label39, 3)
-        Me.Label39.Location = New System.Drawing.Point(197, 340)
+        Me.Label39.Location = New System.Drawing.Point(264, 418)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(87, 13)
+        Me.Label39.Size = New System.Drawing.Size(119, 17)
         Me.Label39.TabIndex = 36
         Me.Label39.Text = "Temperatura (°C)"
         '
@@ -964,9 +1018,10 @@ Partial Class Form1
         Me.temperatura2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.temperatura2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.temperatura2.Location = New System.Drawing.Point(197, 366)
+        Me.temperatura2.Location = New System.Drawing.Point(264, 450)
+        Me.temperatura2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.temperatura2.Name = "temperatura2"
-        Me.temperatura2.Size = New System.Drawing.Size(60, 20)
+        Me.temperatura2.Size = New System.Drawing.Size(81, 22)
         Me.temperatura2.TabIndex = 37
         Me.temperatura2.Text = "0"
         Me.temperatura2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -975,9 +1030,10 @@ Partial Class Form1
         '
         Me.Label40.AutoSize = True
         Me.TableLayoutPanel5.SetColumnSpan(Me.Label40, 3)
-        Me.Label40.Location = New System.Drawing.Point(197, 389)
+        Me.Label40.Location = New System.Drawing.Point(264, 478)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(22, 13)
+        Me.Label40.Size = New System.Drawing.Size(27, 17)
         Me.Label40.TabIndex = 38
         Me.Label40.Text = "PH"
         '
@@ -986,9 +1042,10 @@ Partial Class Form1
         Me.ph2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ph2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ph2.Location = New System.Drawing.Point(197, 407)
+        Me.ph2.Location = New System.Drawing.Point(264, 500)
+        Me.ph2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ph2.Name = "ph2"
-        Me.ph2.Size = New System.Drawing.Size(60, 20)
+        Me.ph2.Size = New System.Drawing.Size(81, 22)
         Me.ph2.TabIndex = 39
         Me.ph2.Text = "0"
         Me.ph2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -998,9 +1055,10 @@ Partial Class Form1
         Me.txtFlujo2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtFlujo2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtFlujo2.Location = New System.Drawing.Point(277, 131)
+        Me.txtFlujo2.Location = New System.Drawing.Point(371, 162)
+        Me.txtFlujo2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtFlujo2.Name = "txtFlujo2"
-        Me.txtFlujo2.Size = New System.Drawing.Size(80, 20)
+        Me.txtFlujo2.Size = New System.Drawing.Size(107, 22)
         Me.txtFlujo2.TabIndex = 29
         Me.txtFlujo2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -1008,9 +1066,10 @@ Partial Class Form1
         '
         Me.Label41.AutoSize = True
         Me.TableLayoutPanel5.SetColumnSpan(Me.Label41, 2)
-        Me.Label41.Location = New System.Drawing.Point(391, 200)
+        Me.Label41.Location = New System.Drawing.Point(523, 246)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(132, 11)
+        Me.Label41.Size = New System.Drawing.Size(178, 14)
         Me.Label41.TabIndex = 40
         Me.Label41.Text = "Prod. diaria biogas (lts/dia)"
         '
@@ -1018,9 +1077,10 @@ Partial Class Form1
         '
         Me.Label42.AutoSize = True
         Me.TableLayoutPanel5.SetColumnSpan(Me.Label42, 2)
-        Me.Label42.Location = New System.Drawing.Point(391, 237)
+        Me.Label42.Location = New System.Drawing.Point(523, 292)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(107, 13)
+        Me.Label42.Size = New System.Drawing.Size(144, 17)
         Me.Label42.TabIndex = 41
         Me.Label42.Text = "Prod. Acumulada (lts)"
         '
@@ -1028,9 +1088,10 @@ Partial Class Form1
         '
         Me.produccion2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.produccion2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.produccion2.Location = New System.Drawing.Point(391, 214)
+        Me.produccion2.Location = New System.Drawing.Point(523, 265)
+        Me.produccion2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.produccion2.Name = "produccion2"
-        Me.produccion2.Size = New System.Drawing.Size(83, 20)
+        Me.produccion2.Size = New System.Drawing.Size(111, 22)
         Me.produccion2.TabIndex = 42
         Me.produccion2.Text = "0"
         Me.produccion2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1039,9 +1100,10 @@ Partial Class Form1
         '
         Me.producido2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.producido2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.producido2.Location = New System.Drawing.Point(391, 254)
+        Me.producido2.Location = New System.Drawing.Point(523, 314)
+        Me.producido2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.producido2.Name = "producido2"
-        Me.producido2.Size = New System.Drawing.Size(83, 20)
+        Me.producido2.Size = New System.Drawing.Size(111, 22)
         Me.producido2.TabIndex = 43
         Me.producido2.Text = "0"
         Me.producido2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1049,9 +1111,10 @@ Partial Class Form1
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(536, 200)
+        Me.Label43.Location = New System.Drawing.Point(716, 246)
+        Me.Label43.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(45, 11)
+        Me.Label43.Size = New System.Drawing.Size(61, 14)
         Me.Label43.TabIndex = 44
         Me.Label43.Text = "CH4 (%)"
         '
@@ -1059,9 +1122,10 @@ Partial Class Form1
         '
         Me.ch42.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ch42.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ch42.Location = New System.Drawing.Point(536, 214)
+        Me.ch42.Location = New System.Drawing.Point(716, 265)
+        Me.ch42.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ch42.Name = "ch42"
-        Me.ch42.Size = New System.Drawing.Size(103, 20)
+        Me.ch42.Size = New System.Drawing.Size(137, 22)
         Me.ch42.TabIndex = 48
         Me.ch42.Text = "0"
         Me.ch42.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1069,9 +1133,10 @@ Partial Class Form1
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(536, 237)
+        Me.Label44.Location = New System.Drawing.Point(716, 292)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(45, 13)
+        Me.Label44.Size = New System.Drawing.Size(62, 17)
         Me.Label44.TabIndex = 45
         Me.Label44.Text = "CO2 (%)"
         '
@@ -1079,9 +1144,10 @@ Partial Class Form1
         '
         Me.co22.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.co22.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.co22.Location = New System.Drawing.Point(536, 254)
+        Me.co22.Location = New System.Drawing.Point(716, 314)
+        Me.co22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.co22.Name = "co22"
-        Me.co22.Size = New System.Drawing.Size(103, 20)
+        Me.co22.Size = New System.Drawing.Size(137, 22)
         Me.co22.TabIndex = 49
         Me.co22.Text = "0"
         Me.co22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1089,9 +1155,10 @@ Partial Class Form1
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(536, 278)
+        Me.Label45.Location = New System.Drawing.Point(716, 342)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(57, 13)
+        Me.Label45.Size = New System.Drawing.Size(76, 17)
         Me.Label45.TabIndex = 46
         Me.Label45.Text = "H2S (ppm)"
         '
@@ -1099,9 +1166,10 @@ Partial Class Form1
         '
         Me.h2s2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.h2s2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.h2s2.Location = New System.Drawing.Point(536, 298)
+        Me.h2s2.Location = New System.Drawing.Point(716, 368)
+        Me.h2s2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.h2s2.Name = "h2s2"
-        Me.h2s2.Size = New System.Drawing.Size(103, 20)
+        Me.h2s2.Size = New System.Drawing.Size(137, 22)
         Me.h2s2.TabIndex = 50
         Me.h2s2.Text = "0"
         Me.h2s2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1109,9 +1177,10 @@ Partial Class Form1
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(536, 321)
+        Me.Label46.Location = New System.Drawing.Point(716, 395)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(50, 13)
+        Me.Label46.Size = New System.Drawing.Size(67, 17)
         Me.Label46.TabIndex = 47
         Me.Label46.Text = "H2 (ppm)"
         '
@@ -1119,9 +1188,10 @@ Partial Class Form1
         '
         Me.h22.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.h22.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.h22.Location = New System.Drawing.Point(536, 343)
+        Me.h22.Location = New System.Drawing.Point(716, 422)
+        Me.h22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.h22.Name = "h22"
-        Me.h22.Size = New System.Drawing.Size(103, 20)
+        Me.h22.Size = New System.Drawing.Size(137, 22)
         Me.h22.TabIndex = 51
         Me.h22.Text = "0"
         Me.h22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1130,27 +1200,30 @@ Partial Class Form1
         '
         Me.presion2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.presion2.Location = New System.Drawing.Point(197, 77)
+        Me.presion2.Location = New System.Drawing.Point(264, 96)
+        Me.presion2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.presion2.Name = "presion2"
-        Me.presion2.Size = New System.Drawing.Size(60, 20)
+        Me.presion2.Size = New System.Drawing.Size(81, 22)
         Me.presion2.TabIndex = 52
         '
         'templ2
         '
         Me.templ2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.templ2.Location = New System.Drawing.Point(391, 77)
+        Me.templ2.Location = New System.Drawing.Point(523, 96)
+        Me.templ2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.templ2.Name = "templ2"
-        Me.templ2.Size = New System.Drawing.Size(83, 20)
+        Me.templ2.Size = New System.Drawing.Size(111, 22)
         Me.templ2.TabIndex = 53
         '
         'Label3
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(197, 48)
+        Me.Label3.Location = New System.Drawing.Point(264, 58)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 26)
+        Me.Label3.Size = New System.Drawing.Size(60, 34)
         Me.Label3.TabIndex = 54
         Me.Label3.Text = "Presión (mbar)"
         '
@@ -1158,9 +1231,10 @@ Partial Class Form1
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(391, 48)
+        Me.Label4.Location = New System.Drawing.Point(523, 58)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(70, 26)
+        Me.Label4.Size = New System.Drawing.Size(94, 34)
         Me.Label4.TabIndex = 55
         Me.Label4.Text = "Temperatura (°C)"
         '
@@ -1169,10 +1243,11 @@ Partial Class Form1
         Me.TabPage4.BackgroundImage = Global.datalogerBeta1.My.Resources.Resources.reactor_copia
         Me.TabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPage4.Controls.Add(Me.TableLayoutPanel6)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(730, 575)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage4.Size = New System.Drawing.Size(976, 711)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Reactor 3"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -1217,54 +1292,58 @@ Partial Class Form1
         Me.TableLayoutPanel6.Controls.Add(Me.Label1, 1, 2)
         Me.TableLayoutPanel6.Controls.Add(Me.Label2, 5, 2)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel6.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 18
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 14.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65.0!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
-        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13.0!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(724, 569)
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 17.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 66.0!))
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(968, 703)
         Me.TableLayoutPanel6.TabIndex = 1
         '
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(3, 0)
+        Me.Label47.Location = New System.Drawing.Point(4, 0)
+        Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(127, 13)
+        Me.Label47.Size = New System.Drawing.Size(168, 17)
         Me.Label47.TabIndex = 26
         Me.Label47.Text = "Tiempo de Ensayo (Días)"
         '
         'txtTiempo3
         '
         Me.txtTiempo3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTiempo3.Location = New System.Drawing.Point(3, 23)
+        Me.txtTiempo3.Location = New System.Drawing.Point(4, 29)
+        Me.txtTiempo3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTiempo3.Name = "txtTiempo3"
-        Me.txtTiempo3.Size = New System.Drawing.Size(132, 20)
+        Me.txtTiempo3.Size = New System.Drawing.Size(175, 22)
         Me.txtTiempo3.TabIndex = 27
         '
         'Label48
         '
         Me.Label48.AutoSize = True
         Me.TableLayoutPanel6.SetColumnSpan(Me.Label48, 3)
-        Me.Label48.Location = New System.Drawing.Point(197, 200)
+        Me.Label48.Location = New System.Drawing.Point(264, 246)
+        Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(80, 13)
+        Me.Label48.Size = New System.Drawing.Size(108, 16)
         Me.Label48.TabIndex = 30
         Me.Label48.Text = "Velocidad (rpm)"
         '
@@ -1272,9 +1351,10 @@ Partial Class Form1
         '
         Me.txtvelocidad3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtvelocidad3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtvelocidad3.Location = New System.Drawing.Point(197, 216)
+        Me.txtvelocidad3.Location = New System.Drawing.Point(264, 266)
+        Me.txtvelocidad3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtvelocidad3.Name = "txtvelocidad3"
-        Me.txtvelocidad3.Size = New System.Drawing.Size(60, 20)
+        Me.txtvelocidad3.Size = New System.Drawing.Size(80, 22)
         Me.txtvelocidad3.TabIndex = 31
         Me.txtvelocidad3.Text = "0"
         Me.txtvelocidad3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1283,9 +1363,10 @@ Partial Class Form1
         '
         Me.Label49.AutoSize = True
         Me.TableLayoutPanel6.SetColumnSpan(Me.Label49, 3)
-        Me.Label49.Location = New System.Drawing.Point(197, 237)
+        Me.Label49.Location = New System.Drawing.Point(264, 292)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(82, 13)
+        Me.Label49.Size = New System.Drawing.Size(109, 17)
         Me.Label49.TabIndex = 32
         Me.Label49.Text = "Frecuencia (Hz)"
         '
@@ -1293,9 +1374,10 @@ Partial Class Form1
         '
         Me.txtTension3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTension3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTension3.Location = New System.Drawing.Point(197, 257)
+        Me.txtTension3.Location = New System.Drawing.Point(264, 317)
+        Me.txtTension3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTension3.Name = "txtTension3"
-        Me.txtTension3.Size = New System.Drawing.Size(60, 20)
+        Me.txtTension3.Size = New System.Drawing.Size(80, 22)
         Me.txtTension3.TabIndex = 33
         Me.txtTension3.Text = "0"
         Me.txtTension3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1304,9 +1386,10 @@ Partial Class Form1
         '
         Me.Label51.AutoSize = True
         Me.TableLayoutPanel6.SetColumnSpan(Me.Label51, 3)
-        Me.Label51.Location = New System.Drawing.Point(197, 335)
+        Me.Label51.Location = New System.Drawing.Point(264, 413)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(87, 13)
+        Me.Label51.Size = New System.Drawing.Size(119, 17)
         Me.Label51.TabIndex = 36
         Me.Label51.Text = "Temperatura (°C)"
         '
@@ -1315,9 +1398,10 @@ Partial Class Form1
         Me.txtTemReac3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtTemReac3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtTemReac3.Location = New System.Drawing.Point(197, 364)
+        Me.txtTemReac3.Location = New System.Drawing.Point(264, 449)
+        Me.txtTemReac3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTemReac3.Name = "txtTemReac3"
-        Me.txtTemReac3.Size = New System.Drawing.Size(60, 20)
+        Me.txtTemReac3.Size = New System.Drawing.Size(80, 22)
         Me.txtTemReac3.TabIndex = 37
         Me.txtTemReac3.Text = "0"
         Me.txtTemReac3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1325,9 +1409,10 @@ Partial Class Form1
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(197, 396)
+        Me.Label52.Location = New System.Drawing.Point(264, 488)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(22, 13)
+        Me.Label52.Size = New System.Drawing.Size(27, 17)
         Me.Label52.TabIndex = 38
         Me.Label52.Text = "PH"
         '
@@ -1336,9 +1421,10 @@ Partial Class Form1
         Me.txtPh3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtPh3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtPh3.Location = New System.Drawing.Point(197, 413)
+        Me.txtPh3.Location = New System.Drawing.Point(264, 509)
+        Me.txtPh3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPh3.Name = "txtPh3"
-        Me.txtPh3.Size = New System.Drawing.Size(60, 20)
+        Me.txtPh3.Size = New System.Drawing.Size(80, 22)
         Me.txtPh3.TabIndex = 39
         Me.txtPh3.Text = "0"
         Me.txtPh3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1348,9 +1434,10 @@ Partial Class Form1
         Me.txtFlujo3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtFlujo3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtFlujo3.Location = New System.Drawing.Point(277, 132)
+        Me.txtFlujo3.Location = New System.Drawing.Point(370, 163)
+        Me.txtFlujo3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtFlujo3.Name = "txtFlujo3"
-        Me.txtFlujo3.Size = New System.Drawing.Size(80, 20)
+        Me.txtFlujo3.Size = New System.Drawing.Size(107, 22)
         Me.txtFlujo3.TabIndex = 29
         Me.txtFlujo3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -1358,9 +1445,10 @@ Partial Class Form1
         '
         Me.Label54.AutoSize = True
         Me.TableLayoutPanel6.SetColumnSpan(Me.Label54, 2)
-        Me.Label54.Location = New System.Drawing.Point(392, 200)
+        Me.Label54.Location = New System.Drawing.Point(523, 246)
+        Me.Label54.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(132, 13)
+        Me.Label54.Size = New System.Drawing.Size(178, 16)
         Me.Label54.TabIndex = 40
         Me.Label54.Text = "Prod. diaria biogas (lts/dia)"
         '
@@ -1368,9 +1456,10 @@ Partial Class Form1
         '
         Me.Label55.AutoSize = True
         Me.TableLayoutPanel6.SetColumnSpan(Me.Label55, 2)
-        Me.Label55.Location = New System.Drawing.Point(392, 237)
+        Me.Label55.Location = New System.Drawing.Point(523, 292)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(107, 13)
+        Me.Label55.Size = New System.Drawing.Size(144, 17)
         Me.Label55.TabIndex = 41
         Me.Label55.Text = "Prod. Acumulada (lts)"
         '
@@ -1378,9 +1467,10 @@ Partial Class Form1
         '
         Me.txtProducion3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtProducion3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtProducion3.Location = New System.Drawing.Point(392, 216)
+        Me.txtProducion3.Location = New System.Drawing.Point(523, 266)
+        Me.txtProducion3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtProducion3.Name = "txtProducion3"
-        Me.txtProducion3.Size = New System.Drawing.Size(101, 20)
+        Me.txtProducion3.Size = New System.Drawing.Size(135, 22)
         Me.txtProducion3.TabIndex = 42
         Me.txtProducion3.Text = "0"
         Me.txtProducion3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1389,9 +1479,10 @@ Partial Class Form1
         '
         Me.txtProducido3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtProducido3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtProducido3.Location = New System.Drawing.Point(392, 257)
+        Me.txtProducido3.Location = New System.Drawing.Point(523, 317)
+        Me.txtProducido3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtProducido3.Name = "txtProducido3"
-        Me.txtProducido3.Size = New System.Drawing.Size(101, 20)
+        Me.txtProducido3.Size = New System.Drawing.Size(135, 22)
         Me.txtProducido3.TabIndex = 43
         Me.txtProducido3.Text = "0"
         Me.txtProducido3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1399,9 +1490,10 @@ Partial Class Form1
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(534, 200)
+        Me.Label56.Location = New System.Drawing.Point(712, 246)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(45, 13)
+        Me.Label56.Size = New System.Drawing.Size(61, 16)
         Me.Label56.TabIndex = 44
         Me.Label56.Text = "CH4 (%)"
         '
@@ -1409,9 +1501,10 @@ Partial Class Form1
         '
         Me.txtch43.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtch43.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtch43.Location = New System.Drawing.Point(534, 216)
+        Me.txtch43.Location = New System.Drawing.Point(712, 266)
+        Me.txtch43.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtch43.Name = "txtch43"
-        Me.txtch43.Size = New System.Drawing.Size(105, 20)
+        Me.txtch43.Size = New System.Drawing.Size(141, 22)
         Me.txtch43.TabIndex = 48
         Me.txtch43.Text = "0"
         Me.txtch43.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1419,9 +1512,10 @@ Partial Class Form1
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(534, 237)
+        Me.Label57.Location = New System.Drawing.Point(712, 292)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(45, 13)
+        Me.Label57.Size = New System.Drawing.Size(62, 17)
         Me.Label57.TabIndex = 45
         Me.Label57.Text = "CO2 (%)"
         '
@@ -1429,9 +1523,10 @@ Partial Class Form1
         '
         Me.txtco23.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtco23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtco23.Location = New System.Drawing.Point(534, 257)
+        Me.txtco23.Location = New System.Drawing.Point(712, 317)
+        Me.txtco23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtco23.Name = "txtco23"
-        Me.txtco23.Size = New System.Drawing.Size(105, 20)
+        Me.txtco23.Size = New System.Drawing.Size(141, 22)
         Me.txtco23.TabIndex = 49
         Me.txtco23.Text = "0"
         Me.txtco23.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1439,9 +1534,10 @@ Partial Class Form1
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(534, 278)
+        Me.Label58.Location = New System.Drawing.Point(712, 343)
+        Me.Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(57, 13)
+        Me.Label58.Size = New System.Drawing.Size(76, 17)
         Me.Label58.TabIndex = 46
         Me.Label58.Text = "H2S (ppm)"
         '
@@ -1449,9 +1545,10 @@ Partial Class Form1
         '
         Me.txth2s3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txth2s3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txth2s3.Location = New System.Drawing.Point(534, 296)
+        Me.txth2s3.Location = New System.Drawing.Point(712, 366)
+        Me.txth2s3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txth2s3.Name = "txth2s3"
-        Me.txth2s3.Size = New System.Drawing.Size(105, 20)
+        Me.txth2s3.Size = New System.Drawing.Size(141, 22)
         Me.txth2s3.TabIndex = 50
         Me.txth2s3.Text = "0"
         Me.txth2s3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1459,9 +1556,10 @@ Partial Class Form1
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(534, 319)
+        Me.Label59.Location = New System.Drawing.Point(712, 393)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(50, 13)
+        Me.Label59.Size = New System.Drawing.Size(67, 17)
         Me.Label59.TabIndex = 47
         Me.Label59.Text = "H2 (ppm)"
         '
@@ -1469,9 +1567,10 @@ Partial Class Form1
         '
         Me.txth23.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txth23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txth23.Location = New System.Drawing.Point(534, 338)
+        Me.txth23.Location = New System.Drawing.Point(712, 418)
+        Me.txth23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txth23.Name = "txth23"
-        Me.txth23.Size = New System.Drawing.Size(105, 20)
+        Me.txth23.Size = New System.Drawing.Size(141, 22)
         Me.txth23.TabIndex = 51
         Me.txth23.Text = "0"
         Me.txth23.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1480,18 +1579,20 @@ Partial Class Form1
         '
         Me.txtPresion3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtPresion3.Location = New System.Drawing.Point(197, 79)
+        Me.txtPresion3.Location = New System.Drawing.Point(264, 98)
+        Me.txtPresion3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPresion3.Name = "txtPresion3"
-        Me.txtPresion3.Size = New System.Drawing.Size(60, 20)
+        Me.txtPresion3.Size = New System.Drawing.Size(80, 22)
         Me.txtPresion3.TabIndex = 52
         '
         'txtTempGas3
         '
         Me.txtTempGas3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtTempGas3.Location = New System.Drawing.Point(392, 79)
+        Me.txtTempGas3.Location = New System.Drawing.Point(523, 98)
+        Me.txtTempGas3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTempGas3.Name = "txtTempGas3"
-        Me.txtTempGas3.Size = New System.Drawing.Size(101, 20)
+        Me.txtTempGas3.Size = New System.Drawing.Size(135, 22)
         Me.txtTempGas3.TabIndex = 53
         '
         'Label1
@@ -1499,9 +1600,10 @@ Partial Class Form1
         Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(197, 50)
+        Me.Label1.Location = New System.Drawing.Point(264, 60)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(60, 26)
+        Me.Label1.Size = New System.Drawing.Size(80, 34)
         Me.Label1.TabIndex = 54
         Me.Label1.Text = "Presión (mbar)"
         '
@@ -1511,19 +1613,21 @@ Partial Class Form1
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
         Me.TableLayoutPanel6.SetColumnSpan(Me.Label2, 2)
-        Me.Label2.Location = New System.Drawing.Point(392, 63)
+        Me.Label2.Location = New System.Drawing.Point(523, 77)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(136, 13)
+        Me.Label2.Size = New System.Drawing.Size(181, 17)
         Me.Label2.TabIndex = 55
         Me.Label2.Text = "Temperatura (°C)"
         '
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.TableLayoutPanel2)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(730, 575)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(976, 711)
         Me.TabPage1.TabIndex = 5
         Me.TabPage1.Text = "Gráficas"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -1532,18 +1636,19 @@ Partial Class Form1
         '
         Me.TableLayoutPanel2.ColumnCount = 1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Chart5, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.TableLayoutPanel12, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TableLayoutPanel13, 0, 2)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 3
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(724, 569)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(968, 703)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'Chart5
@@ -1553,9 +1658,10 @@ Partial Class Form1
         Me.Chart5.Dock = System.Windows.Forms.DockStyle.Fill
         Legend1.Name = "Legend1"
         Me.Chart5.Legends.Add(Legend1)
-        Me.Chart5.Location = New System.Drawing.Point(3, 59)
+        Me.Chart5.Location = New System.Drawing.Point(4, 74)
+        Me.Chart5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Chart5.Name = "Chart5"
-        Me.Chart5.Size = New System.Drawing.Size(718, 392)
+        Me.Chart5.Size = New System.Drawing.Size(960, 484)
         Me.Chart5.TabIndex = 2
         Me.Chart5.Text = "Chart5"
         '
@@ -1564,28 +1670,30 @@ Partial Class Form1
         Me.TableLayoutPanel12.ColumnCount = 6
         Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.65217!))
         Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.34783!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 429.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 572.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel12.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105.0!))
         Me.TableLayoutPanel12.Controls.Add(Me.Label11, 0, 0)
         Me.TableLayoutPanel12.Controls.Add(Me.cmbReactorG, 1, 0)
         Me.TableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel12.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel12.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel12.Name = "TableLayoutPanel12"
         Me.TableLayoutPanel12.RowCount = 1
         Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
-        Me.TableLayoutPanel12.Size = New System.Drawing.Size(718, 50)
+        Me.TableLayoutPanel12.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62.0!))
+        Me.TableLayoutPanel12.Size = New System.Drawing.Size(960, 62)
         Me.TableLayoutPanel12.TabIndex = 3
         '
         'Label11
         '
         Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(3, 18)
+        Me.Label11.Location = New System.Drawing.Point(4, 22)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(89, 13)
+        Me.Label11.Size = New System.Drawing.Size(119, 17)
         Me.Label11.TabIndex = 0
         Me.Label11.Text = "Reactor"
         '
@@ -1595,9 +1703,10 @@ Partial Class Form1
         Me.cmbReactorG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbReactorG.FormattingEnabled = True
         Me.cmbReactorG.Items.AddRange(New Object() {"1", "2", "3"})
-        Me.cmbReactorG.Location = New System.Drawing.Point(98, 14)
+        Me.cmbReactorG.Location = New System.Drawing.Point(131, 19)
+        Me.cmbReactorG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbReactorG.Name = "cmbReactorG"
-        Me.cmbReactorG.Size = New System.Drawing.Size(69, 21)
+        Me.cmbReactorG.Size = New System.Drawing.Size(93, 24)
         Me.cmbReactorG.TabIndex = 1
         '
         'TableLayoutPanel13
@@ -1616,13 +1725,14 @@ Partial Class Form1
         Me.TableLayoutPanel13.Controls.Add(Me.Button7, 4, 0)
         Me.TableLayoutPanel13.Controls.Add(Me.Button8, 5, 0)
         Me.TableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel13.Location = New System.Drawing.Point(3, 457)
+        Me.TableLayoutPanel13.Location = New System.Drawing.Point(4, 566)
+        Me.TableLayoutPanel13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel13.Name = "TableLayoutPanel13"
         Me.TableLayoutPanel13.RowCount = 3
         Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel13.Size = New System.Drawing.Size(718, 109)
+        Me.TableLayoutPanel13.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel13.Size = New System.Drawing.Size(960, 133)
         Me.TableLayoutPanel13.TabIndex = 4
         '
         'Button5
@@ -1630,9 +1740,10 @@ Partial Class Form1
         Me.Button5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button5.Location = New System.Drawing.Point(360, 3)
+        Me.Button5.Location = New System.Drawing.Point(481, 4)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(113, 38)
+        Me.Button5.Size = New System.Drawing.Size(151, 46)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Prod. Diaria Biogás  - Temp"
         Me.Button5.UseVisualStyleBackColor = True
@@ -1642,9 +1753,10 @@ Partial Class Form1
         Me.Button2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Location = New System.Drawing.Point(3, 3)
+        Me.Button2.Location = New System.Drawing.Point(4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 38)
+        Me.Button2.Size = New System.Drawing.Size(151, 46)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Composición Química Biogás"
         Me.Button2.UseVisualStyleBackColor = True
@@ -1654,9 +1766,10 @@ Partial Class Form1
         Me.Button3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(122, 3)
+        Me.Button3.Location = New System.Drawing.Point(163, 4)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(113, 38)
+        Me.Button3.Size = New System.Drawing.Size(151, 46)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Temp-Ph Reactor"
         Me.Button3.UseVisualStyleBackColor = True
@@ -1666,9 +1779,10 @@ Partial Class Form1
         Me.Button4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button4.Location = New System.Drawing.Point(241, 3)
+        Me.Button4.Location = New System.Drawing.Point(322, 4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(113, 38)
+        Me.Button4.Size = New System.Drawing.Size(151, 46)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Temp-Presión Biogas"
         Me.Button4.UseVisualStyleBackColor = True
@@ -1678,9 +1792,10 @@ Partial Class Form1
         Me.Button7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button7.Location = New System.Drawing.Point(479, 3)
+        Me.Button7.Location = New System.Drawing.Point(640, 4)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(113, 38)
+        Me.Button7.Size = New System.Drawing.Size(151, 46)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Prod. Diaria Biogás - PH"
         Me.Button7.UseVisualStyleBackColor = True
@@ -1688,9 +1803,10 @@ Partial Class Form1
         'Button8
         '
         Me.Button8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button8.Location = New System.Drawing.Point(598, 3)
+        Me.Button8.Location = New System.Drawing.Point(799, 4)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(117, 38)
+        Me.Button8.Size = New System.Drawing.Size(157, 46)
         Me.Button8.TabIndex = 7
         Me.Button8.Text = "Button8"
         Me.Button8.UseVisualStyleBackColor = True
@@ -1699,10 +1815,11 @@ Partial Class Form1
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.TableLayoutPanel14)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(730, 575)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Size = New System.Drawing.Size(976, 711)
         Me.TabPage2.TabIndex = 6
         Me.TabPage2.Text = "Hoja de Datos"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -1711,19 +1828,20 @@ Partial Class Form1
         '
         Me.TableLayoutPanel14.ColumnCount = 1
         Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel14.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
         Me.TableLayoutPanel14.Controls.Add(Me.TableLayoutPanel15, 0, 0)
         Me.TableLayoutPanel14.Controls.Add(Me.DataDataGridView, 0, 1)
         Me.TableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel14.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel14.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel14.Name = "TableLayoutPanel14"
         Me.TableLayoutPanel14.RowCount = 2
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
         Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.0!))
-        Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel14.Size = New System.Drawing.Size(724, 569)
+        Me.TableLayoutPanel14.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel14.Size = New System.Drawing.Size(968, 703)
         Me.TableLayoutPanel14.TabIndex = 0
         '
         'TableLayoutPanel15
@@ -1731,12 +1849,12 @@ Partial Class Form1
         Me.TableLayoutPanel15.ColumnCount = 8
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.58621!))
         Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.41379!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 34.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 108.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 245.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 108.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 284.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
+        Me.TableLayoutPanel15.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47.0!))
         Me.TableLayoutPanel15.Controls.Add(Me.Label12, 0, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.ComboBox2, 1, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.labelxxx, 4, 0)
@@ -1744,21 +1862,23 @@ Partial Class Form1
         Me.TableLayoutPanel15.Controls.Add(Me.txtSustrat, 5, 0)
         Me.TableLayoutPanel15.Controls.Add(Me.Label13, 2, 0)
         Me.TableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel15.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel15.Location = New System.Drawing.Point(4, 4)
+        Me.TableLayoutPanel15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel15.Name = "TableLayoutPanel15"
         Me.TableLayoutPanel15.RowCount = 1
         Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
-        Me.TableLayoutPanel15.Size = New System.Drawing.Size(718, 50)
+        Me.TableLayoutPanel15.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62.0!))
+        Me.TableLayoutPanel15.Size = New System.Drawing.Size(960, 62)
         Me.TableLayoutPanel15.TabIndex = 4
         '
         'Label12
         '
         Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(3, 18)
+        Me.Label12.Location = New System.Drawing.Point(4, 22)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(49, 13)
+        Me.Label12.Size = New System.Drawing.Size(66, 17)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "Reactor"
         '
@@ -1768,18 +1888,20 @@ Partial Class Form1
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3"})
-        Me.ComboBox2.Location = New System.Drawing.Point(58, 14)
+        Me.ComboBox2.Location = New System.Drawing.Point(78, 19)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(43, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(58, 24)
         Me.ComboBox2.TabIndex = 1
         '
         'labelxxx
         '
         Me.labelxxx.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.labelxxx.AutoSize = True
-        Me.labelxxx.Location = New System.Drawing.Point(372, 18)
+        Me.labelxxx.Location = New System.Drawing.Point(497, 22)
+        Me.labelxxx.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labelxxx.Name = "labelxxx"
-        Me.labelxxx.Size = New System.Drawing.Size(75, 13)
+        Me.labelxxx.Size = New System.Drawing.Size(100, 17)
         Me.labelxxx.TabIndex = 3
         Me.labelxxx.Text = "Sustrato"
         '
@@ -1787,27 +1909,30 @@ Partial Class Form1
         '
         Me.txtResp.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtResp.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtResp.Location = New System.Drawing.Point(188, 15)
+        Me.txtResp.Location = New System.Drawing.Point(252, 20)
+        Me.txtResp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtResp.Name = "txtResp"
-        Me.txtResp.Size = New System.Drawing.Size(178, 20)
+        Me.txtResp.Size = New System.Drawing.Size(237, 22)
         Me.txtResp.TabIndex = 4
         '
         'txtSustrat
         '
         Me.txtSustrat.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtSustrat.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtSustrat.Location = New System.Drawing.Point(453, 15)
+        Me.txtSustrat.Location = New System.Drawing.Point(605, 20)
+        Me.txtSustrat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSustrat.Name = "txtSustrat"
-        Me.txtSustrat.Size = New System.Drawing.Size(207, 20)
+        Me.txtSustrat.Size = New System.Drawing.Size(276, 22)
         Me.txtSustrat.TabIndex = 5
         '
         'Label13
         '
         Me.Label13.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(107, 18)
+        Me.Label13.Location = New System.Drawing.Point(144, 22)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(75, 13)
+        Me.Label13.Size = New System.Drawing.Size(100, 17)
         Me.Label13.TabIndex = 2
         Me.Label13.Text = "Responsable"
         '
@@ -1820,10 +1945,11 @@ Partial Class Form1
         Me.DataDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.biogastotal, Me.DataGridViewTextBoxColumn12, Me.DataGridViewTextBoxColumn13, Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn19, Me.DataGridViewTextBoxColumn20, Me.DataGridViewTextBoxColumn18})
         Me.DataDataGridView.DataSource = Me.DataBindingSource
         Me.DataDataGridView.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataDataGridView.Location = New System.Drawing.Point(3, 59)
+        Me.DataDataGridView.Location = New System.Drawing.Point(4, 74)
+        Me.DataDataGridView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataDataGridView.Name = "DataDataGridView"
         Me.DataDataGridView.ReadOnly = True
-        Me.DataDataGridView.Size = New System.Drawing.Size(718, 507)
+        Me.DataDataGridView.Size = New System.Drawing.Size(960, 625)
         Me.DataDataGridView.TabIndex = 0
         '
         'DataGridViewTextBoxColumn2
@@ -1986,9 +2112,10 @@ Partial Class Form1
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel4})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 687)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 851)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(961, 22)
+        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(1, 0, 19, 0)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1281, 22)
         Me.StatusStrip1.TabIndex = 1
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -2026,7 +2153,7 @@ Partial Class Form1
         Me.TextBox27.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox27.Location = New System.Drawing.Point(3, 23)
         Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(132, 20)
+        Me.TextBox27.Size = New System.Drawing.Size(132, 22)
         Me.TextBox27.TabIndex = 27
         '
         'Label61
@@ -2043,7 +2170,7 @@ Partial Class Form1
         Me.TextBox28.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox28.Location = New System.Drawing.Point(196, 180)
         Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox28.Size = New System.Drawing.Size(68, 22)
         Me.TextBox28.TabIndex = 31
         Me.TextBox28.Text = "0"
         Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2062,7 +2189,7 @@ Partial Class Form1
         Me.TextBox29.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox29.Location = New System.Drawing.Point(196, 223)
         Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox29.Size = New System.Drawing.Size(68, 22)
         Me.TextBox29.TabIndex = 33
         Me.TextBox29.Text = "0"
         Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2081,7 +2208,7 @@ Partial Class Form1
         Me.TextBox30.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox30.Location = New System.Drawing.Point(196, 264)
         Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox30.Size = New System.Drawing.Size(68, 22)
         Me.TextBox30.TabIndex = 35
         Me.TextBox30.Text = "0"
         Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2100,7 +2227,7 @@ Partial Class Form1
         Me.TextBox31.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox31.Location = New System.Drawing.Point(196, 332)
         Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox31.Size = New System.Drawing.Size(68, 22)
         Me.TextBox31.TabIndex = 37
         Me.TextBox31.Text = "0"
         Me.TextBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2119,7 +2246,7 @@ Partial Class Form1
         Me.TextBox32.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox32.Location = New System.Drawing.Point(196, 373)
         Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox32.Size = New System.Drawing.Size(68, 22)
         Me.TextBox32.TabIndex = 39
         Me.TextBox32.Text = "0"
         Me.TextBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2131,7 +2258,7 @@ Partial Class Form1
         Me.TextBox33.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox33.Location = New System.Drawing.Point(282, 103)
         Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(71, 20)
+        Me.TextBox33.Size = New System.Drawing.Size(71, 22)
         Me.TextBox33.TabIndex = 29
         Me.TextBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -2169,7 +2296,7 @@ Partial Class Form1
         Me.TextBox34.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox34.Location = New System.Drawing.Point(416, 180)
         Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(89, 20)
+        Me.TextBox34.Size = New System.Drawing.Size(89, 22)
         Me.TextBox34.TabIndex = 42
         Me.TextBox34.Text = "0"
         Me.TextBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2179,7 +2306,7 @@ Partial Class Form1
         Me.TextBox35.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox35.Location = New System.Drawing.Point(416, 223)
         Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(89, 20)
+        Me.TextBox35.Size = New System.Drawing.Size(89, 22)
         Me.TextBox35.TabIndex = 43
         Me.TextBox35.Text = "0"
         Me.TextBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2200,7 +2327,7 @@ Partial Class Form1
         Me.TextBox36.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox36.Location = New System.Drawing.Point(541, 180)
         Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(84, 20)
+        Me.TextBox36.Size = New System.Drawing.Size(84, 22)
         Me.TextBox36.TabIndex = 48
         Me.TextBox36.Text = "0"
         Me.TextBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2221,7 +2348,7 @@ Partial Class Form1
         Me.TextBox37.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox37.Location = New System.Drawing.Point(541, 223)
         Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(84, 20)
+        Me.TextBox37.Size = New System.Drawing.Size(84, 22)
         Me.TextBox37.TabIndex = 49
         Me.TextBox37.Text = "0"
         Me.TextBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2242,7 +2369,7 @@ Partial Class Form1
         Me.TextBox38.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox38.Location = New System.Drawing.Point(541, 264)
         Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(84, 20)
+        Me.TextBox38.Size = New System.Drawing.Size(84, 22)
         Me.TextBox38.TabIndex = 50
         Me.TextBox38.Text = "0"
         Me.TextBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2263,7 +2390,7 @@ Partial Class Form1
         Me.TextBox39.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox39.Location = New System.Drawing.Point(541, 307)
         Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(84, 20)
+        Me.TextBox39.Size = New System.Drawing.Size(84, 22)
         Me.TextBox39.TabIndex = 51
         Me.TextBox39.Text = "0"
         Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -2524,14 +2651,15 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(961, 709)
+        Me.ClientSize = New System.Drawing.Size(1281, 873)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(977, 726)
+        Me.MinimumSize = New System.Drawing.Size(1297, 883)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "IFES BIOGAS MONITOR"
