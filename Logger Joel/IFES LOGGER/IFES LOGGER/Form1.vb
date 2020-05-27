@@ -81,7 +81,7 @@ Public Class IFESLOGGER
             BoxLogger.SelectedIndex = i
             BotonConectar.Enabled = True
         Catch ex As Exception
-            MsgBox("No se detecto nada conectado", MsgBoxStyle.Critical, "Atencion!")
+            MsgBox("Verifique Conexion", MsgBoxStyle.Critical, "Atencion!")
             BoxLogger.Text = ""
             BoxLogger.Items.Clear()
             BotonConectar.Enabled = False
@@ -93,7 +93,7 @@ Public Class IFESLOGGER
             BoxRitter.SelectedIndex = x
             BotonConectar.Enabled = True
         Catch ex As Exception
-            MsgBox("No se detecto nada conectado", MsgBoxStyle.Critical, "Atencion!")
+            MsgBox("Verifique Conexion", MsgBoxStyle.Critical, "Atencion!")
             BoxRitter.Text = ""
             BoxRitter.Items.Clear()
             BotonConectar.Enabled = False
@@ -110,19 +110,18 @@ Public Class IFESLOGGER
         If BoxLogger.SelectedItem = BoxRitter.SelectedItem Then
             MsgBox("Verificar que los puertos sean diferentes", MsgBoxStyle.Critical, "Atencion!")
         Else
+
             If SerialPort1.IsOpen = False Then
 
                 SerialPort1.BaudRate = 9600
                 SerialPort1.PortName = BoxLogger.SelectedItem
                 SerialPort1.Open()
-                TimerSerial1.Start()
             End If
 
             If SerialPort2.IsOpen = False Then
                 SerialPort2.BaudRate = 9600
                 SerialPort2.PortName = BoxRitter.SelectedItem
                 SerialPort2.Open()
-                TimerSerial2.Start()
             End If
 
             BoxLogger.Enabled = False 'Item box del COM del Logger
@@ -178,32 +177,37 @@ Public Class IFESLOGGER
 
     Private Sub BotonDesconectar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BotonDesconectar.Click
 
-        PictureBoxEstadoConec.Image = My.Resources.botonrojo
-        PictureBoxEstadoConec.Visible = True
-        LabelStatus.Text = "Status : Desconectado"
-        LabelEnsayo.Text = "Ensayo: Terminado"
+        If SerialPort1.IsOpen = True Or SerialPort2.IsOpen = True Then
+            PictureBoxEstadoConec.Image = My.Resources.botonrojo
+            PictureBoxEstadoConec.Visible = True
+            LabelStatus.Text = "Status : Desconectado"
+            LabelEnsayo.Text = "Ensayo: Terminado"
 
-        BoxLogger.Enabled = True
-        BoxRitter.Enabled = True
+            BoxLogger.Enabled = True
+            BoxRitter.Enabled = True
 
-        Label1.Enabled = True
+            Label1.Enabled = True
 
-        BotonEscanear.Enabled = True
-        BotonConectar.Enabled = True
-        BotonDesconectar.Enabled = False
+            BotonEscanear.Enabled = True
+            BotonConectar.Enabled = True
+            BotonDesconectar.Enabled = False
 
-        'Apagado de Seriales
-        SerialPort2.WriteLine("+")
-        TimerSerial1.Stop()
-        TimerSerial2.Stop()
-        TimerDataLogRecord1.Stop()
-        SerialPort1.Close()
-        SerialPort2.Close()
+            'Apagado de Seriales
 
+            SerialPort2.WriteLine("+")
+            TimerDataLogRecord1.Stop()
+            SerialPort1.Close()
+            SerialPort2.Close()
 
-        BotonEmpezarEnsayo.Enabled = False
-        BotonTerminarEnsayo.Enabled = False
-        BotonMuestreo.Enabled = False
+            'Botones de Export
+            CSVExport.Enabled = False
+            CSVExport2.Enabled = False
+            CSVExport3.Enabled = False
+
+            BotonEmpezarEnsayo.Enabled = False
+            BotonTerminarEnsayo.Enabled = False
+            BotonMuestreo.Enabled = False
+        End If
     End Sub
 
     Private Sub BotonEmpezarEnsayo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BotonEmpezarEnsayo.Click
