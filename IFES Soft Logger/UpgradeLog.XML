@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="datalogerBeta1">
+</Property><Property Name="Solution File" Value="C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1.sln">
+</Property><Property Name="Date" Value="May 19, 2020">
+</Property><Property Name="Time" Value="14:58 PM">
+</Property></Properties><Event ErrorLevel="4" Project="datalogerBeta1" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="datalogerBeta1" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="datalogerBeta1" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="datalogerBeta1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="datalogerBeta1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="datalogerBeta1" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="datalogerBeta1" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="References to Microsoft.VisualBasic.PowerPacks.Vs were updated to Microsoft.VisualBasic.PowerPacks.Vs 10.0.">
+</Event></UpgradeLog>

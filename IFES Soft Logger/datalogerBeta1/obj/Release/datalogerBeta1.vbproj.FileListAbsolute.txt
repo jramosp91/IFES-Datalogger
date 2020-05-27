@@ -1,0 +1,62 @@
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\dbBiogas.accdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\rpt1.rpt
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\rpt2.rpt
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\rpt3.rpt
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\rpt1.vb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\rpt2.vb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\rpt3.vb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\ifesbiogasmonitor.exe.config
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\ifesbiogasmonitor.exe.manifest
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\ifesbiogasmonitor.application
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\ifesbiogasmonitor.exe
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\ifesbiogasmonitor.pdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\bin\Release\ifesbiogasmonitor.xml
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.Form1.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmCarga.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmConsulta.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.Gráficos.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmLecturaInicial.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmNuevoEnsayo.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmResultados.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmUsuarios.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmVisorRpt.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmVisorRpt2.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.frmVisorRpt3.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.Resources.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\datalogerBeta1.vbproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\ifesbiogasmonitor.exe.manifest
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\ifesbiogasmonitor.application
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\ifesbiogasmonitor.exe
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\ifesbiogasmonitor.xml
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\DataLogger Beta 1 Final GDrive\datalogerBeta1\obj\Release\ifesbiogasmonitor.pdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\dbBiogas.accdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\rpt1.rpt
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\rpt2.rpt
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\rpt3.rpt
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\rpt1.vb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\rpt2.vb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\rpt3.vb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\ifesbiogasmonitor.exe.config
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\ifesbiogasmonitor.exe.manifest
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\ifesbiogasmonitor.application
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\ifesbiogasmonitor.exe
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\ifesbiogasmonitor.pdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\bin\Release\ifesbiogasmonitor.xml
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.Form1.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmCarga.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmConsulta.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.Gráficos.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmLecturaInicial.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmNuevoEnsayo.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmResultados.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmUsuarios.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmVisorRpt.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmVisorRpt2.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.frmVisorRpt3.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.Resources.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\datalogerBeta1.vbproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\ifesbiogasmonitor.exe.manifest
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\ifesbiogasmonitor.application
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\ifesbiogasmonitor.exe
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\ifesbiogasmonitor.xml
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\obj\Release\ifesbiogasmonitor.pdb

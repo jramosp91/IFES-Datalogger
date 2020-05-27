@@ -1,0 +1,30 @@
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\Interop.LCC11.dll
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.vbproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.exe.manifest
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.application
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.exe
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.pdb
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.xml
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\WindowsApplication1.IFESLOGGER.resources
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\WindowsApplication1.Resources.resources
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.vbproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.exe.manifest
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.application
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.exe
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.xml
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.pdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.exe.manifest
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.application
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.exe
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.pdb
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\bin\test\IFES LOGGER.xml
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\Interop.LCC11.dll
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.vbproj.ResolveComReference.cache
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\WindowsApplication1.IFESLOGGER.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\WindowsApplication1.Resources.resources
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.vbproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.exe.manifest
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.application
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.exe
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.xml
+C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\test\IFES LOGGER.pdb

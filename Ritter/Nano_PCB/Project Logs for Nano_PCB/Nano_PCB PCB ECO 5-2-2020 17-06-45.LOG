@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=LED1-2
+Removed Pin From Net: NetName=5V Pin=Rled1-1
+Removed Member From Class: ClassName=Nano_PCB Member=LED1
+Added Component: Designator=P2(HDR1X2)
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=D5 Pin=Rled1-1
+Added Pin To Net: NetName=D5 Pin=U1-8
+Added Net: Name=D5
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=Rled1-2
+Added Net: Name=NetP2_1
+Added Member To Class: ClassName=Nano_PCB Member=Component P2 Header 2

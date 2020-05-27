@@ -1,0 +1,7 @@
+Added Component: Designator=U1(NANO)
+Added Pin To Net: NetName=D2 Pin=U1-5
+Added Pin To Net: NetName=D3 Pin=U1-6
+Added Pin To Net: NetName=D4 Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-29
+Added Pin To Net: NetName=5V Pin=U1-30
+Added Member To Class: ClassName=Nano_PCB Member=Component U1 NANO

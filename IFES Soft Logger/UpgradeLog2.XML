@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="datalogerBeta1">
+</Property><Property Name="Solution File" Value="C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1.sln">
+</Property><Property Name="Date" Value="May 20, 2020">
+</Property><Property Name="Time" Value="10:24:05 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="datalogerBeta1.vbproj" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="Project file successfully backed up as C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\Backup\datalogerBeta1.vbproj">
+</Event><Event ErrorLevel="2" Project="datalogerBeta1.vbproj" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="Unable to open project 'C:\Users\Joel\Desktop\Proyectos Joel\IFES\Programa de IFES\IFES Soft Logger\datalogerBeta1\datalogerBeta1.vbproj'.&#xA;An error was found on line #1.">
+</Event><Event ErrorLevel="3" Project="datalogerBeta1.vbproj" Source="datalogerBeta1\datalogerBeta1.vbproj" Description="Not Converted">
+</Event></UpgradeLog>

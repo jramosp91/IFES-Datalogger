@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Styles>
+        <Style ss:ID="hdr">
+            <Alignment ss:Horizontal="Center"/>
+            <Borders>
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+            </Borders>
+            <Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1"/>
+        </Style>
+        <Style ss:ID="ksg">
+            <Alignment ss:Vertical="Bottom"/>
+            <Borders/>
+            <Font ss:FontName="Calibri"/>
+        </Style>
+        <Style ss:ID="isi">
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+            </Borders>
+            <Font ss:FontName="Calibri" ss:Size="10"/>
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="Reactor 1">
+        <Table>
+            <Column ss:Width="27.75"/>
+            <Column ss:Width="93"/>
+            <Column ss:Width="84"/>
+            <Column ss:Width="100"/>
+            <Column ss:Width="84"/>
+            <Row ss:StyleID="ksg">
+            <Cell ss:StyleID="hdr">
+                <Data ss:Type="String">No</Data>
+            </Cell>
+            <Cell ss:StyleID="hdr">
+                <Data ss:Type="String">PH</Data>
+            </Cell>
+            <Cell ss:StyleID="hdr">
+                <Data ss:Type="String">Temperatura</Data>
+            </Cell>
+            <Cell ss:StyleID="hdr">
+                <Data ss:Type="String">Ritter</Data>
+            </Cell>
+            <Cell ss:StyleID="hdr">
+                <Data ss:Type="String">Fecha</Data>
+            </Cell>
+            </Row>
+        <Row ss:StyleID="ksg" ss:utoFitHeight ="0">
+        <Cell ss:StyleID="isi">
+            <Data ss:Type="String">1</Data>
+        </Cell>
+        <Cell ss:StyleID="isi">
+            <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell ss:StyleID="isi">
+            <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell ss:StyleID="isi">
+            <Data ss:Type="String"></Data>
+        </Cell>
+        <Cell ss:StyleID="isi">
+            <Data ss:Type="String"></Data>
+        </Cell>
+        </Row>
+        </Table>
+    </Worksheet>
+</Workbook>

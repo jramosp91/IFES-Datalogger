@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ifesbiogasmonitor
+</name>
+</assembly>
+<members>
+<member name="P:datalogerBeta1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.Imagen2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.LOGO_CHICO_JPG___Copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.LogoUNSAMgr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.pastedImage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.reactor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.reactor_3D_2_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.reactor_copia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:datalogerBeta1.My.Resources.Resources.reactor1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:datalogerBeta1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.dataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.datosanaliticosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.ensayosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.resultadosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.usuariosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.CamposDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.dataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.datosanaliticosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.ensayosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.resultadosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.usuariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.CamposRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.dataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.datosanaliticosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.ensayosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.resultadosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.cons3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.usuariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet.CamposRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.dataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.datosanaliticosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.ensayosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.resultadosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.cons1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.cons2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.cons3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.usuariosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.CamposTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(datalogerBeta1.dbBiogasDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(datalogerBeta1.dbBiogasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(datalogerBeta1.dbBiogasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.UpdateAll(datalogerBeta1.dbBiogasDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:datalogerBeta1.dbBiogasDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

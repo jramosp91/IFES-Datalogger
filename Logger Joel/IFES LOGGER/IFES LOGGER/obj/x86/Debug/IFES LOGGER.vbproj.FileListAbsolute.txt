@@ -1,0 +1,2 @@
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\x86\Debug\Interop.LCC11.dll
+C:\Users\Joel\Desktop\Programa de IFES\Logger Joel\IFES LOGGER\IFES LOGGER\obj\x86\Debug\IFES LOGGER.vbproj.ResolveComReference.cache

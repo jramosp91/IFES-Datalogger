@@ -1,0 +1,5 @@
+Added Component: Designator=J1(FichaDC)
+Added Pin To Net: NetName=NetB1_2 Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Member To Class: ClassName=Nano_PCB Member=Component J1 FichaDC

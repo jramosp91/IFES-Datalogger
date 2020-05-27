@@ -1,0 +1,51 @@
+Added Component: Designator=B1(BORx2-5mm)
+Added Component: Designator=B2(BORx3-5mm)
+Added Component: Designator=B3(BORx2-5mm)
+Added Component: Designator=C1(RAD-0.2)
+Added Component: Designator=C2(RAD-10.5-5mm)
+Added Component: Designator=C3(C_0805)
+Added Component: Designator=D1(DIODE-0.4)
+Added Component: Designator=LED1(DIOMELF0805)
+Added Component: Designator=R1(R_0805)
+Added Component: Designator=R2(R_0805)
+Added Component: Designator=R3(R_0805)
+Added Component: Designator=Rled1(R_0805)
+Added Component: Designator=U1(NANO)
+Added Pin To Net: NetName=5V Pin=B3-2
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=5V Pin=D1-2
+Added Pin To Net: NetName=5V Pin=Rled1-1
+Added Pin To Net: NetName=5V Pin=U1-30
+Added Net: Name=5V
+Added Pin To Net: NetName=D2 Pin=B2-3
+Added Pin To Net: NetName=D2 Pin=R1-2
+Added Pin To Net: NetName=D2 Pin=U1-5
+Added Net: Name=D2
+Added Pin To Net: NetName=D3 Pin=B2-2
+Added Pin To Net: NetName=D3 Pin=R2-2
+Added Pin To Net: NetName=D3 Pin=U1-6
+Added Net: Name=D3
+Added Pin To Net: NetName=D4 Pin=B2-1
+Added Pin To Net: NetName=D4 Pin=R3-2
+Added Pin To Net: NetName=D4 Pin=U1-7
+Added Net: Name=D4
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=GND Pin=B3-1
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=U1-29
+Added Net: Name=GND
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=D1-1
+Added Net: Name=NetB1_2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=Rled1-2
+Added Net: Name=NetLED1_1
+Added Class: Name=Nano_PCB
